@@ -1,8 +1,8 @@
 # test-firebase-auth
 
-> Firebase Auth sample
+> Firebase Auth と NUXT を使用したユーザー登録&認証のチュートリアル用です。
 
-## Build Setup
+## 環境セットアップ
 
 ```bash
 # install dependencies
@@ -19,4 +19,21 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+NUXTについての詳細は、公式ドキュメントをご覧ください。 [Nuxt.js docs](https://nuxtjs.org).
+
+## Firebaseセットアップ
+
+プロジェクト直下に `.env` ファイルを作成し、以下のフォーマットで各種認証情報などを記載してください。
+xは、実際の情報に置き換えてください。
+
+```
+BASE_URL=http://localhost:3000
+FIREBASE_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_AUTH_DOMAIN=xxxxxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_DATABASE_URL=xxxxxxxxxxxxxxxxxxxxxx
+FIREBASE_PROJECT_ID=xxxxxxxxxxxxxxx
+FIREBASE_STORAGE_BUCKET=xxxxxxxxxxxxxxxxxxxxx
+FIREBASE_MESSSAGE_SENDER_ID=xxxxxxxxxxxxx
+FIREBASE_APP_ID=x:xxxxxxxxxxxxxxxxx:x:xxxxxxxxxxxxxxxxx
+FIREBASE_MEASUREMENT_ID=x-xxxxxxxxxxx
+```
